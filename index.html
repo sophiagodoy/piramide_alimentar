@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--coloca o idioma como portugues-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!--linka o documento a um arquivo CSS externo chamado styles.css, que contém estilos adicionais para a página-->
+    <title>Pirâmide Alimentar</title> <!-- define o título da página que aparece na aba do navegador-->
+</head>
+<body> <!--contém o conteúdo visível da página-->
+    <header> <!--usado para o cabeçalho da página-->
+        <h1>TUDO O QUE VOCÊ PRECISA SABER SOBRE A PIRÂMIDE ALIMENTAR</h1> <!--defini o título principal da página-->
+    </header>
+    <main> <!--representa o conteúdo principal da página-->
+        <section> <!--utilizado para campo de pesquisa-->
+            <input type="text" placeholder="Digite sobre qual grupo da pirâmide alimentar você deseja entender melhor (base, meio, topo)" id="campo-pesquisa"> <!--campo para a entrada do texto-->
+            <button onclick = "pesquisar()" > Pesquisar</button> <!--cria um botão com o nome pesquisa -->
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"> <!--resultados-pesquisa - faz referencia a uma parte do código CSS -->
+              <!-- <div class = "item-resultado">
+                <h2> 
+                    <a href="#" target="_blank">Base da pirâmide</a> 
+                </h2>
+                <strong>Cereais, pães e tubérculos:</strong>
+                <ul>
+                  <li>São a principal fonte de energia para o nosso corpo.</li>
+                  <li>Fornecem carboidratos complexos que são liberados lentamente, garantindo energia duradoura.</li>
+                  <li>Opte pelas versões integrais, que são mais ricas em fibras e nutrientes.</li>
+                </ul>
+                <a href="https://pt.wikipedia.org/wiki/Pir%C3%A2mide_alimentar" target="_blank">Mais informações</a> 
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Meio da piramide</a>
+                </h2>  
+                 <ul>
+                    <li>
+                      <strong>Hortaliças e Frutas:</strong>
+                      <ul>
+                        <li>Ricas em vitaminas, minerais, fibras e antioxidantes.</li>
+                        <li>Fortalecem o sistema imunológico.</li>
+                        <li>Ajudam na digestão.</li>
+                        <li>Protegem o corpo contra doenças.</li>
+                        <li>Varie as cores para garantir a ingestão de diferentes nutrientes.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Leguminosas:</strong>
+                      <ul>
+                        <li>Feijão, lentilha, grão de bico e outras leguminosas são excelentes fontes de proteínas vegetais, fibras e minerais como ferro.</li>
+                        <li>Ajudam a controlar o colesterol e a saciedade.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Carnes, aves, peixes e ovos:</strong>
+                      <ul>
+                        <li>Fornecem proteínas de alta qualidade, essenciais para o crescimento e reparo dos tecidos.</li>
+                        <li>Priorize as carnes magras e os peixes, que são mais saudáveis.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Leite e derivados:</strong>
+                      <ul>
+                        <li>Ricos em cálcio, fósforo e proteínas, são importantes para a saúde dos ossos e dentes.</li>
+                        <li>Opte por versões desnatadas ou semidesnatadas.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                <a href="https://pt.wikipedia.org/wiki/Pir%C3%A2mide_alimentar" target="_blank">Mais informações</a>
+            </div>          
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">Topo de pirâmide</a>
+                </h2>
+                <ul>
+                    <li>
+                      <strong>Óleos e Gorduras:</strong> Devem ser consumidos com moderação e preferencialmente os de origem vegetal, como azeite de oliva e óleo de canola.
+                    </li>
+                    <li>
+                      <strong>Açúcares e Doces:</strong> Devem ser consumidos ocasionalmente, em pequenas quantidades, pois o excesso pode levar ao ganho de peso e outras doenças.
+                    </li>
+                  </ul>
+                <a href="https://pt.wikipedia.org/wiki/Pir%C3%A2mide_alimentar" target="_blank">Mais informações</a>
+            </div> -->
+        </section>
+    </main>
+    <footer> <!--usada para o rodapé da página, que geralmente contém informações de contato, direitos autorais-->
+        <p> Quer saber mais sobre a Pirâmide Alimentar? Entre em contato conosco pelo email: sophiagodoy.profissional@gmail.com </p>
+    </footer>
+    <script src="dados.js"></script> <!-- incluindo um arquivo em Java na página web-->
+    <script src="app.js"></script> <!-- incluindo um arquivo em Java na página web-->
+</body>
+</html>
